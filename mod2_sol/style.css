@@ -1,0 +1,28 @@
+html {
+	font-family: times new roman;
+}
+background{
+	color: yellow;
+}
+*{
+	box-sizing: border-box;
+}
+
+.row {
+	width: 100%;
+}
+@media (min-width: 992px) {
+	.desktop {
+		float: left;
+		border: 5px solid black;
+		width: 33.33%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.tablet {
+		float: left;
+		border: 5px solid black;
+		width: 50%;
+	}
+
+}
