@@ -1,28 +1,73 @@
 html {
-	font-family: times new roman;
-}
-background{
-	color: yellow;
-}
-*{
-	box-sizing: border-box;
+	font-family: Georgia, 'Times New Roman', Times;
 }
 
+* {
+	box-sizing: border-box;
+}
+h1 {
+	font-size: 200%;
+	color: #5C0001;
+	text-align: center;
+	margin-bottom: 20px;
+}
+p {
+	padding: 5px;
+	font-size: 15px;
+	position: relative;
+}
+.section {
+	background-color: #AF916D;
+	border: 3px solid black;
+	margin-top: 20px;
+	margin-right: 20px;
+	padding: 5px;
+	text-align: justify;
+	position: relative;
+}
+h3 {
+	font-size: 20px;
+	width: 150px;
+	border: 1px solid black;
+	font-weight: bold;
+	text-align: center;
+	float: right; 
+	top: 0;
+	right: 0;
+	margin: 0;
+	position: absolute;
+}
+#title1 {
+	background-color: #F2C80F;
+}
+#title2 {
+	background-color: #42F7C0;
+}
+#title3 {
+	background-color: #1DD5EE;
+}
 .row {
 	width: 100%;
 }
 @media (min-width: 992px) {
-	.desktop {
-		float: left;
-		border: 5px solid black;
+	.col-lg-4 {
 		width: 33.33%;
+		float: left;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
-	.tablet {
-		float: left;
-		border: 5px solid black;
+	.col-md-6 {
 		width: 50%;
+		float: left;
 	}
-
+	.col-md-12 {
+		width: 100%;
+		float: left;
+	}
+}
+@media (max-width: 767px) {
+	.col-sx-12 {
+		width: 100%;
+		float: left;
+	}
 }
